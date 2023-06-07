@@ -25,4 +25,3 @@ print(search_field)
 about = driver.find_element(by=By.XPATH, value="/html/body/div[6]/div/div[11]/div[4]/div[4]/div/div/div[2]/div/div/div/div[2]/div/div/div/span[2]")
 about_text = about.get_attribute("innerHTML")
 
-print(about_text)
